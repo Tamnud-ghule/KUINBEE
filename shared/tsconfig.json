@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "rootDir": ".",
+      "types": ["node"],
+      "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/drizzle-orm",
+        "./node_modules/zod"
+      ],
+      "declaration": true,
+      "declarationMap": true,
+      "composite": true,
+      "strict": true,
+      "lib": ["ESNext", "DOM"],
+      "baseUrl": ".",
+      "paths": {
+        "your-scope/shared": ["./schema.ts"]
+      }
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }

@@ -1,0 +1,4 @@
+PatientID,Age,Gender,Diagnosis,AdmissionDate,DischargeDate
+1,45,M,Diabetes,2025-01-10,2025-01-15
+2,60,F,Hypertension,2025-02-05,2025-02-12
+3,30,F,Asthma,2025-03-20,2025-03-25 

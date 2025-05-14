@@ -1,0 +1,4 @@
+PropertyID,Location,Type,Value,OccupancyRate,Date
+2001,New York,Office,5000000,95,2025-02-01
+2002,San Francisco,Retail,3000000,90,2025-02-01
+2003,Chicago,Warehouse,2000000,85,2025-02-01 

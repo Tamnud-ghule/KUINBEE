@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+dist/
+tmp/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Client-specific
+/client/node_modules/
+/client/dist/
+
+# Server-specific
+/server/node_modules/
+/server/dist/
+
+# Shared packages
+/shared/node_modules/
+/shared/dist/

@@ -1,0 +1,5 @@
+Region,Date,Consumption_kWh
+North,2025-01-01,15000
+South,2025-01-01,12000
+East,2025-01-01,18000
+West,2025-01-01,16000 

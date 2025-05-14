@@ -1,0 +1,25 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    
+    "types": ["node", "express", "express-validator", "express-session", "passport","@your-scope/shared"],
+    "baseUrl": ".",
+    "paths": {
+      "@your-scope/shared": ["../shared"],
+      "@your-scope/shared/*": ["../shared/*"]
+    },
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "require": ["ts-node/register"]
+  },
+  "include": ["src/**/*"]
+}

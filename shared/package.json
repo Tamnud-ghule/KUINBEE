@@ -1,0 +1,20 @@
+{
+    "name": "@your-scope/shared",
+    "version": "1.0.0",
+    "main": "dist/schema.js",
+    "types": "dist/schema.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "dist"
+    ],
+    "peerDependencies": {},
+    "devDependencies": {
+        "drizzle-orm": "^0.39.3",
+        "drizzle-zod": "^0.7.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3",
+        "zod": "^3.24.4"
+    }
+}
