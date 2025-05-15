@@ -109,8 +109,8 @@ const SiteNavigation: React.FC = () => {
               </div>
             ) : (
               <Link href="/auth">
-                <Button variant="outline" size="sm" className="text-white border-white hover:bg-gray-800">
-                  Log in
+                <Button variant="outline" size="sm" className="text-white bg-blue-multiply hover:bg-blend-multiply border border-white rounded px-4 py-2 font-medium transition-colors">
+                     Login
                 </Button>
               </Link>
             )}
