@@ -103,5 +103,5 @@ he project maintainer:
 
 - **GitHub**: [Tamnud-ghule](https://github.com/Tamnud-ghule)
 - **Email**: [[Tamanud_ghule](mailto\:tamanudghule57@gmail.com)]
-- **frontend**: Kuinbee.com
-- 
+- **frontend**: [Kuinbee](https://www.kuinbee.com/)
+  
