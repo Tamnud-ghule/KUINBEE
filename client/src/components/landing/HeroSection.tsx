@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
               <ArrowRight className="h-4 w-4 ml-2 transform group-hover:translate-x-1 transition-transform" />
             </button>
           </Link>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kuinbee.pvt.ltd@gmail.com"target="_blank" rel="noopener noreferrer"></a>
+         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kuinbee.pvt.ltd@gmail.com" target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 shadow-sm transition-colors">
               <Mail className="h-5 w-5 mr-2" />
               Contact Our Data Team
