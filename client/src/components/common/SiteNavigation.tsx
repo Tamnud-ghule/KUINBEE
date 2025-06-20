@@ -53,13 +53,13 @@ const SiteNavigation: React.FC = () => {
             {location === '/' ? (
               <>
                 <a href="#about" className="hover:text-gray-300">About</a>
-                <a href="#contact" className="hover:text-gray-300">Contact</a>
+               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kuinbee.pvt.ltd@gmail.com"target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Contact</a>
                 <a href="#faqs" className="hover:text-gray-300">FAQ</a>
               </>
             ) : (
               <>
                 <a href="/#about" className="hover:text-gray-300">About</a>
-                <a href="/#contact" className="hover:text-gray-300">Contact</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kuinbee.pvt.ltd@gmail.com"target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Contact</a>
                 <a href="/#faqs" className="hover:text-gray-300">FAQ</a>
               </>
             )}
